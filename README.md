@@ -1,4 +1,4 @@
-# OpenCV 4 Example
+# OpenCV 4 Example from [nachovizzo](https://github.com/nachovizzo/example_opencv)
 
 ## Prerequisites
 
