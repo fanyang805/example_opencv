@@ -23,11 +23,11 @@ following in the terminal:
 ```sh
 # First cd into where you want to put the Opencv library, e.g ~/dev/libs/
 mkdir -p ~/dev/libs && cd ~/dev/libs/
-git clone https://github.com/opencv/opencv.git -b 4.3.0
-git clone https://github.com/opencv/opencv_contrib.git -b 4.3.0
+git clone https://github.com/opencv/opencv.git
+git clone https://github.com/opencv/opencv_contrib.git
 mkdir opencv/build && cd opencv/build
 cmake -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..
-make -j$(nproc --all) && sudo make install
+make -j$(nproc --all) && sudo checkinstall
 ```
 
 ## How to Build the examples on this repository
